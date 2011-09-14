@@ -1,6 +1,6 @@
 			       PREFACE
 
-Computer users spend a lot of time doing simple, mechanical data manipula-
+   Computer users spend a lot of time doing simple, mechanical data manipula-
 tion -- changing the format of data, checking its validity, finding items with
 some property, adding up numbers, printing reports, and the like. All of these
 jobs ought to be mechanized, but it's a real nuisance to have to write a special-
