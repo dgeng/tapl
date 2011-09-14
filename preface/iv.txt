@@ -1,1 +1,45 @@
 
+Organization of the book
+
+   The first goal of this book is to teach you what awk is and how to use it
+effectively. Chapter 1 is a tutorial on the bare minimum necessary to get
+started; after reading even a few pages, you should have enough information to
+begin writing useful programs. The examples in this chapter are very short and
+simple, typical of the interactive use of awk.
+   Chapter 2 covers the entire language in a systematic order. Although there
+are plenty of examples in this chapter, like most manuals it's long and bit dry,
+so you will probably want to skim it on a first reading.
+   The rest of the book contains a wide variety of examples, chosen to show the
+breadth of applicability of awk and how to make good use of its facilities. Some
+of the programs are in regular use in our environment; others show ideas but are
+not intended for production use; a few are included just because they are fun.
+   The emphasis in Chapter 3 is on retrieval, transformation, reduction and
+validation of data -- the tasks that awk was originally designed for. There is
+also a discussion of how to handle data like address lists that naturally comes in
+multiline chunks.
+   Awk is a good language for managing small, personal databases. Chapter 4
+discusses the generation of reports from databases, and builds a simple rela-
+tional database system and query language for data stored in multiple files.
+   Awk handles text with much the same conventions that most languages han-
+dle numbers, so it often finds application in text processing. Chapter 5
+describes programs for generating text, and some that help with document
+preparation. one of the examples is an indexing program based on the one we
+used for the book.
+   Chapter 6 is about "little languages," that is, specialized languages that
+focus on a narrow domain. Awk is convenient for writing small translators
+because its basic operations support many of the lexical and table-management
+tasks encountered in translation. The chapter includes an assembler, a graphics
+language, and several calculators.
+   Awk is a good language for expressing certain kinds of algorithms. Because
+there are no declarations and because storage management is easy, an awk pro-
+gram has many of the advantages of pseudo-code but awk programs can be run,
+which is not true of pseudo-code. The focus in Chapter 7 is on experimentation
+with algorithms, including testing and performance evaluation. It shoes several
+sorting algorithms, and culminates in a version of the Unix make program.
+   Chapter 8 describes some of the historical reasons why awk is as it is, and
+offers some suggestions on what to do when it is too slow or too confining.
+   Appendix A is a summary of the language; Appendix B contains answers to
+selected exercises.
+   You should begin by reading Chapter 1, and trying some small examples of
+your own. Go through Chapter 2 quickly, concentrating on the summaries and
+tables; don't get bogged down in the details. Then read as far into each of the
