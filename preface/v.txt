@@ -1,1 +1,47 @@
 
+subsequent chapters are your interest takes you. The chapters are nearly
+independent of each other, so the order doesn't matter much.
+
+The Examples
+
+   There are several themes in the examples. The primary one, of course, is to
+show how to use awk well. We hae tried to include a wide variety of useful
+constructions, and we have stressed particular aspects like associative arrays and
+regular expressions that typify awk programming.
+   A second theme is to show awk's versatility. Awk programs have been used
+from databases to circuit design, from numerical analysis to graphics, from com-
+pilers to system administration, from a first language for nonprogrammers to
+the implementation languages for software engineering courses. We hope that
+the diversity of applications illustrated in the book will suggest new possibilities
+to you as well.
+   A third theme is to show how common computing operations are done. The
+book contains a relational database system, an assembler and interpreter for a
+toy computer, a graph-drawing language, a recursive-descent parser for an awk
+subset, a file-update program based on make, and many other examples. In
+each case, a short awk program conveys the essence of how something works in
+a form that you can understand and play with.
+   We have also tried to illustrate a spectrum of ways to attack programming
+problems. Rapid prototyping is an approach that awk supports well. A less
+obvious strategy is divide and conquer: breaking a big job into small com-
+ponents, each concentrating on one aspect of the problem. Another is writing
+programs that create other programs. Little languages define a good user inter-
+face and often suggest a sound implementation. Although these ideas are
+presented here in the context of awk, they are much more generally applicable,
+and ought to be part of every programmer's repertoire.
+   The examples have all been tested directly from the text, which is in
+machine-readable form. We have tried to make the programs error-free, but we
+have not added features nor made them proof against all possible invalid inputs,
+preferring to concentrate on conveying the essentials.
+
+Evolution of the AWK Language
+
+   Awk was originally designed and implemented by the authors in 1977, in
+part as an experiment to see how the Unix tools grep and sed could be gen-
+eralized to deal with numbers as well as text. It was based on our interests in
+regular expressions and programmable editors. Although it was meant for writ-
+ing very short programs, its combination of facilities soon attracted users who
+wrote significantly larger programs. These larger programs needed features that
+had not been part of the original implementation, so awk was enhanced in a new
+version made available in 1985.
+   The major new feature is the ability for users to define their own functions
+
