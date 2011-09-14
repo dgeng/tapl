@@ -1,1 +1,39 @@
+Other enhancements include dynamic regular expressions, with text substitution
+and pattern-matching functions; additional built-in functions and variables;
+some new operators and statements; input from multiple files; and access to
+command-line arguments. Error messages have also been improved. The examp-
+ples in Chapter 1 use only facilities of the original version; many examples in
+later chapters take advantages  of new features.
+   This version of awk is part of Unix System V Release 3.1. Source code for
+this version is also available through AT&T's Unix System Toolchest software
+distribution system; call 1-201-5222-6900 and log in as guest. In Europe, con-
+tact AT&T Unix Europe in London (44-1-567-7711); in the Far East, contact
+AT&T Unix Pacific in Tokyo (81-3-431-3670).
+   Since awk was developed under Unix, some of its features reflect capabilities
+usually found only there; these features are used in some of our examples.
+Furthermore, we have assumed the existence of some Unix utilities, particularly
+sort, for which exact equivalents may not exist elsewhere. Aside from these
+limitations, however, awk should be useful in any environment; in particular, it
+runs on MS-DOS. Further information is available from Addison-Wesley.
+   Awk is certainly not perfect; it has its share of irregularities, omissions, and
+just plain bad ideas, and it's sometimes painfully slow. But it's also a rich and
+versatile language, useful in a remarkable number of cases. We hope you'll find
+it as valuable as we do.
 
+Acknowledgements
+
+   We are deeply indebted to friends who made comments and suggestions on
+drafts of this book. We are particularly grateful to Jon Bentley, whose
+enthusiasm has been an inspiration for years, Jon contributed many ideas and
+programs derived form his experience using and teaching awk; he also read
+several drafts with great care. Doug McIlroy also deserves special recognition;
+his peerless talent as a reader greatly improved the structure and content of the
+whole book. Others who made helpful comments on the manuscript include
+Susan Aho, Jaap Akkerhuis, Lorinda Cherry, CHris Fraser, Eric Grosse, Ric-
+cardo Gusella, Bob Herbst, Mark Kernighan, John Linderman, Bob Martin,
+Howard Moscovitz, Gerard Schmitt, Don Swartwout, Howard Trickey, Peter
+van Eijk, Chris Van Wyk, and Mihalis Yannakakis. We thank them all.
+
+                                              Alfred V. Aho
+                                              Brian W. Kernighan
+                                              Peter J. Weinberger
