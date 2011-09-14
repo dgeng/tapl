@@ -43,5 +43,5 @@ ing very short programs, its combination of facilities soon attracted users who
 wrote significantly larger programs. These larger programs needed features that
 had not been part of the original implementation, so awk was enhanced in a new
 version made available in 1985.
-   The major new feature is the ability for users to define their own functions
+   The major new feature is the ability for users to define their own functions.
 
