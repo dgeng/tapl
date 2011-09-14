@@ -1,0 +1,29 @@
+Errata for The AWK Programming Language
+
+p 23: In Summary (6), pattern2 can match on the same line as pattern1, which is not clear from the wording.
+
+p 43: The third argument in gsub(/a/, "aba", "banana") should not be a literal string; current versions of AWK will not overwrite it.
+
+p 101: The loop fails if there are 10 or more fields. Going backwards would fix it.
+
+p 114: There are two expansions, not one, between the third and fourth rewritings in the last illustration.
+
+p 130: The two technical reports are numbers 127 and 128 respectively.
+
+p 132: "is" should be "if" in the description of jz.
+
+p 141: Delete the assignment ok=1 in handling negatives; it has no effect and is misleading.
+
+p 149: In function eat, replace NF by NR.
+
+pp 150-1: Insert spaces before first argument in expr(), rel() and term(), to remind that all arguments are locals.
+
+p 159: The print should be on the same line as "illegal sort...".
+
+p 167: The pattern in makeprof should be executed only if the line has a left brace; precede it by if ($0 ~ /{/).
+
+p 182: "with a only small increase" should be "with only a small increase".
+
+p 188: A statement may be broken without a backslash after while as well.
+
+Mon Apr 11 09:00:41 EDT 2005
